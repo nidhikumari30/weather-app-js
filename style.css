@@ -91,7 +91,7 @@ body {
 
 .weather {
     text-align: center;
-    color: blueviolet;
+    color: white;
     transition: transform 0.8s ease;
     padding-bottom: 10px;
 
@@ -126,7 +126,7 @@ body {
 }
 
 .detail {
-    color: blueviolet;
+    color: white;
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
