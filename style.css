@@ -69,8 +69,8 @@ body {
     /* padding: 10px; */
     margin: 22px 20px 0px -66px;
     border-radius: 50px;
-    border: 1px solid blueviolet;
-    background-color: blueviolet;
+    border: 1px solid white;
+    background-color: white;
     color: #C39BD3;
     box-shadow: 1px 1px 2px #7926c7,
         -1px -1px 2px #9b30fd;
@@ -161,7 +161,7 @@ body {
 
 .search div .fa {
     font-size: 1.8rem;
-    color: blueviolet;
+    color: white;
     position: absolute;
     top: 2rem;
     left: 2.5rem;
@@ -216,7 +216,7 @@ h4 {
    
 .search div .fa {
     font-size: 1.8rem;
-    color: blueviolet;
+    color: white;
     position: absolute;
     
     margin: 0px 20px 0px 2px 
