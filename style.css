@@ -126,7 +126,7 @@ body {
 }
 
 .detail {
-    color: white;
+    color: blueviolet;
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
