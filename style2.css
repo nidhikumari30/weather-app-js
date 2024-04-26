@@ -42,7 +42,7 @@ body {
 
 
 .box input::placeholder {
-    color: blueviolet;
+    color: white;
 
     /* padding-left: 5px; */
 }
