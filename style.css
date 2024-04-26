@@ -221,6 +221,9 @@ h4 {
     
     margin: 0px 20px 0px 2px 
 }
+    .search div .fa:hover {
+    transform: scale(1.1); /* Scale up the size on hover */
+}
 .col img {
     width: 29px;
     margin-left: 13px;
