@@ -1,3 +1,4 @@
+User
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,61 +8,22 @@
     <title>Landing page using HTML CSS</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Common styles */
+        /* Background image */
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            transition: background-color 0.5s ease; /* Smooth background color transition */
+            background-image: url('background.jpg'); /* Replace 'your-image-url.jpg' with the path to your image */
+            background-size: cover; /* Ensures the background image covers the entire viewport */
+            background-position: center; /* Centers the background image */
         }
-
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000; /* Ensure header is above content */
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-            backdrop-filter: blur(10px); /* Apply blur effect */
-            transition: background-color 0.5s ease; /* Smooth background color transition */
-        }
-
-        .logo {
-            color: #fff;
-            font-size: 24px;
-            font-weight: bold;
-            padding: 20px;
-            transition: color 0.5s ease; /* Smooth color transition */
-        }
-
-        .menu {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            padding: 20px;
-            transition: padding 0.5s ease; /* Smooth padding transition */
-        }
-
-        .menu a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            transition: color 0.3s; /* Smooth color transition */
-        }
-
-        .menu a:hover {
-            color: orange; /* Change color on hover */
-        }
-
+        
+        /* Rest of your existing CSS */
         /* Typewriter effect */
         .typewriter-text {
-            overflow: hidden;
-            border-right: .15em solid orange;
-            white-space: nowrap;
-            margin: 0 auto;
-            letter-spacing: .15em;
-            animation: typing 3.5s steps(30, end) infinite, blink-caret .75s step-end infinite;
-            transition: color 0.5s ease; /* Smooth color transition */
+            overflow: hidden; /* Ensures the text is hidden until revealed */
+            border-right: .15em solid orange; /* Creates the typewriter cursor effect */
+            white-space: nowrap; /* Keeps the text on one line */
+            margin: 0 auto; /* Centers the text */
+            letter-spacing: .15em; /* Adjusts the spacing between characters */
+            animation: typing 3.5s steps(30, end) infinite, blink-caret .75s step-end infinite; /* Animation for typing effect */
         }
 
         /* Typing animation */
@@ -74,25 +36,6 @@
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: orange }
-        }
-
-        /* Hover effect for the heading */
-        .h-text:hover {
-            color: orange; /* Change color on hover */
-        }
-
-        /* Apply specific styles when scrolling down */
-        .scrolled {
-            background-color: rgba(0, 0, 0, 0.8); /* Darken the background color when scrolled */
-            backdrop-filter: blur(20px); /* Apply stronger blur effect when scrolled */
-        }
-
-        .scrolled .logo {
-            font-size: 20px; /* Shrink logo size when scrolled */
-        }
-
-        .scrolled .menu {
-            padding: 10px; /* Reduce padding when scrolled */
         }
     </style>
 </head>
@@ -122,16 +65,5 @@
             <a href="index2.html">Check Now</a>
         </section>
     </header>
-
-    <!-- Main content goes here -->
-    <!-- Add your content here -->
-
-    <script>
-        // Add event listener for scroll event
-        window.addEventListener('scroll', function() {
-            var header = document.querySelector('header');
-            header.classList.toggle('scrolled', window.scrollY > 0); // Toggle 'scrolled' class based on scroll position
-        });
-    </script>
 </body>
 </html>
