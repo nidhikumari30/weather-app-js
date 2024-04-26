@@ -189,7 +189,7 @@ h4 {
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #7926c7;
+    background-color: white;
     height:  10%;
     border-radius: 10px;
 }
