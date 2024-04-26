@@ -161,7 +161,7 @@ body {
 
 .search div .fa {
     font-size: 1.8rem;
-    color: white;
+    color: blueviolet;
     position: absolute;
     top: 2rem;
     left: 2.5rem;
@@ -216,7 +216,7 @@ h4 {
    
 .search div .fa {
     font-size: 1.8rem;
-    color: white;
+    color: blueviolet;
     position: absolute;
     
     margin: 0px 20px 0px 2px 
