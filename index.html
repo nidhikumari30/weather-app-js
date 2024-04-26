@@ -12,6 +12,8 @@
             background-image: url('background.jpg'); /* Replace 'your-image-url.jpg' with the path to your image */
             background-size: cover; /* Ensures the background image covers the entire viewport */
             background-position: center; /* Centers the background image */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
         }
         
         /* Rest of your existing CSS */
@@ -35,6 +37,27 @@
         @keyframes blink-caret {
             from, to { border-color: transparent }
             50% { border-color: orange }
+        }
+
+        /* Navigation bar styles */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            backdrop-filter: blur(10px); /* Apply blur effect */
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
+
+        .menu a:hover {
+            color: orange; /* Change color on hover */
         }
     </style>
 </head>
