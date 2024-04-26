@@ -29,19 +29,5 @@ This simple weather app allows users to check the current weather of a specific 
 
 **OpenWeatherMap API:** Retrieves real-time weather data based on user input.
 
-
-## Screenshots
-
-![App Screenshot](https://github.com/mdsahban/weather-app-js/blob/main/images/Weather%20App%20.png)
-
-
-## Live Demo
-
-For a live demo, visit Weather App Demo. https://mdsahban.github.io/weather-app-js/
-
-
-
-## Authors
-
-- [@mdsahban](https://github.com/mdsahban)
+THANKS!!
 
