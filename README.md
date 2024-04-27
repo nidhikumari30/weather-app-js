@@ -1,6 +1,6 @@
 # Weather App
 
-This simple weather app allows users to check the current weather of a specific city. It's built using HTML, CSS, and JavaScript, and it fetches real-time weather data from the OpenWeatherMap API.
+This simple weather app allows users to check the current weather of a specific city. It's built using HTML, CSS and JavaScript,API,React and some other backend and it fetches real-time weather data from the OpenWeatherMap API.Made as a project in Web Development Course by our team: me and my friend,Ishita 
 
 ## Features
 
